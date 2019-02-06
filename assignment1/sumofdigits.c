@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
 	int n, sum = 0;
@@ -8,6 +9,8 @@ int main()
 		sum += n % 10;
 		n = n / 10;
 	}
-	printf_s("sum is %d", sum);
+	printf("sum is %d", sum);
+	getchar();
 	return 0;
 }
+//cdthgkjh
