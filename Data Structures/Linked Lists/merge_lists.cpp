@@ -41,23 +41,22 @@ void polynomial::merge_poly(polynomial &p1, polynomial &p2)
 	cur2 = p2.start;
 	while (cur1 != NULL&&cur2 != NULL)
 	{
-		if (cur1->data > cur2->data)
+		if (cur1->data < cur2->data)
 		{
 			insert_end(cur1->data);
 			cur1 = cur1->next;
 		}
-		else if(cur1->data < cur2->data)
+		else if(cur1->data > cur2->data)
 		{
 			insert_end(cur2->data);
 			cur2 = cur2->next;
 		}
-		/*else
+		else
 		{
 			insert_end(cur1->data);
-			insert_end(cur2->data);
 			cur1 = cur1->next;
 			cur2 = cur2->next;
-		}*/
+		}
 	}
 	while (cur1 != NULL)//for the remaining contents of p1 as p2 ended
 	{
