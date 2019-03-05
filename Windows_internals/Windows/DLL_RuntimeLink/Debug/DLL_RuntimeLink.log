@@ -1,0 +1,16 @@
+﻿  add_dll.cpp
+c:\users\rithisha\desktop\ncr training\ncrwork\windows_internals\windows\dll_runtimelink\add_dll.cpp(4): warning C4273: 'add_dll': inconsistent dll linkage
+  c:\users\rithisha\desktop\ncr training\ncrwork\windows_internals\windows\dll_runtimelink\mylib1.h(7): note: see previous definition of 'add_dll'
+  div.cpp
+c:\users\rithisha\desktop\ncr training\ncrwork\windows_internals\windows\dll_runtimelink\div.cpp(4): warning C4273: 'divv': inconsistent dll linkage
+  c:\users\rithisha\desktop\ncr training\ncrwork\windows_internals\windows\dll_runtimelink\mylib1.h(10): note: see previous definition of 'divv'
+  main_runtimelink.cpp
+  mul.cpp
+c:\users\rithisha\desktop\ncr training\ncrwork\windows_internals\windows\dll_runtimelink\mul.cpp(4): warning C4273: 'mul': inconsistent dll linkage
+  c:\users\rithisha\desktop\ncr training\ncrwork\windows_internals\windows\dll_runtimelink\mylib1.h(9): note: see previous definition of 'mul'
+  subtract_dll.cpp
+c:\users\rithisha\desktop\ncr training\ncrwork\windows_internals\windows\dll_runtimelink\subtract_dll.cpp(4): warning C4273: 'subtract_dll': inconsistent dll linkage
+  c:\users\rithisha\desktop\ncr training\ncrwork\windows_internals\windows\dll_runtimelink\mylib1.h(8): note: see previous definition of 'subtract_dll'
+  Generating Code...
+     Creating library C:\Users\Rithisha\Desktop\ncr training\ncrwork\Windows_internals\Windows\Debug\DLL_RuntimeLink.lib and object C:\Users\Rithisha\Desktop\ncr training\ncrwork\Windows_internals\Windows\Debug\DLL_RuntimeLink.exp
+  DLL_RuntimeLink.vcxproj -> C:\Users\Rithisha\Desktop\ncr training\ncrwork\Windows_internals\Windows\Debug\DLL_RuntimeLink.dll

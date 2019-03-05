@@ -1,0 +1,6 @@
+﻿  process_praccpp.cpp
+c:\users\rithisha\desktop\ncr training\ncrwork\windows_internals\windows\process_practice\process_praccpp.cpp(21): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'HANDLE'
+c:\users\rithisha\desktop\ncr training\ncrwork\windows_internals\windows\process_practice\process_praccpp.cpp(23): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'HANDLE'
+c:\users\rithisha\desktop\ncr training\ncrwork\windows_internals\windows\process_practice\process_praccpp.cpp(36): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'HANDLE'
+c:\users\rithisha\desktop\ncr training\ncrwork\windows_internals\windows\process_practice\process_praccpp.cpp(38): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'HANDLE'
+  Process_practice.vcxproj -> C:\Users\Rithisha\Desktop\ncr training\ncrwork\Windows_internals\Windows\Debug\Process_practice.exe

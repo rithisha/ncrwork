@@ -1,0 +1,7 @@
+﻿  eof.cpp
+c:\users\rithisha\desktop\ncr training\ncrwork\windows_internals\windows\eof\eof.cpp(41): warning C4477: 'wprintf' : format string '%S' requires an argument of type 'char *', but variadic argument 1 has type 'TCHAR *'
+  c:\users\rithisha\desktop\ncr training\ncrwork\windows_internals\windows\eof\eof.cpp(41): note: consider using '%lS' in the format string
+  c:\users\rithisha\desktop\ncr training\ncrwork\windows_internals\windows\eof\eof.cpp(41): note: consider using '%llS' in the format string
+  c:\users\rithisha\desktop\ncr training\ncrwork\windows_internals\windows\eof\eof.cpp(41): note: consider using '%LS' in the format string
+  c:\users\rithisha\desktop\ncr training\ncrwork\windows_internals\windows\eof\eof.cpp(41): note: consider using '%wS' in the format string
+  EOF.vcxproj -> C:\Users\Rithisha\Desktop\ncr training\ncrwork\Windows_internals\Windows\Debug\EOF.exe

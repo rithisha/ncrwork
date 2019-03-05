@@ -1,0 +1,3 @@
+﻿  bin_search.cpp
+c:\users\rithisha\desktop\ncr training\ncrwork\data structures\searching_sorting\binarysearch\bin_search.cpp(6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  BinarySearch.vcxproj -> C:\Users\Rithisha\Desktop\ncr training\ncrwork\Data Structures\Searching_Sorting\Debug\BinarySearch.exe
