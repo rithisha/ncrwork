@@ -7,7 +7,7 @@ int add(int, int);
 int sub(int, int);
 int mul(int, int);
 int divi(int, int);
-int precedence(char operators) {
+int check_prec(char operators) {
 	if (operators == '+' || operators == '-')
 		return 1;
 	if (operators == '*' || operators == '/')
@@ -67,7 +67,7 @@ int evaluate(char *in_string)
 		}
 		else
 		{
-			while (!operators.empty() && precedence(operators.top()) >= precedence(in_string[i]))
+			while (!operators.empty() && check_prec(operators.top()) >= check_prec(in_string[i]))
 			{
 				float op1 = operand.top();
 				operand.pop();
