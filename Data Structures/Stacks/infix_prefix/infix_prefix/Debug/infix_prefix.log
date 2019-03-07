@@ -1,0 +1,3 @@
+﻿  in_prefix.cpp
+c:\users\rithisha\desktop\ncr training\ncrwork\data structures\stacks\infix_prefix\infix_prefix\in_prefix.cpp(102): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  infix_prefix.vcxproj -> C:\Users\Rithisha\Desktop\ncr training\ncrwork\Data Structures\Stacks\infix_prefix\Debug\infix_prefix.exe

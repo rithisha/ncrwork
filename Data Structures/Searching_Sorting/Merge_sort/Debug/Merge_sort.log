@@ -1,0 +1,6 @@
+﻿  merge.cpp
+c:\users\rithisha\desktop\ncr training\ncrwork\data structures\searching_sorting\merge_sort\merge.cpp(40): warning C4101: 'loc': unreferenced local variable
+c:\users\rithisha\desktop\ncr training\ncrwork\data structures\searching_sorting\merge_sort\merge.cpp(40): warning C4101: 'min': unreferenced local variable
+c:\users\rithisha\desktop\ncr training\ncrwork\data structures\searching_sorting\merge_sort\merge.cpp(40): warning C4101: 'j': unreferenced local variable
+c:\users\rithisha\desktop\ncr training\ncrwork\data structures\searching_sorting\merge_sort\merge.cpp(40): warning C4101: 't': unreferenced local variable
+  Merge_sort.vcxproj -> C:\Users\Rithisha\Desktop\ncr training\ncrwork\Data Structures\Searching_Sorting\Debug\Merge_sort.exe

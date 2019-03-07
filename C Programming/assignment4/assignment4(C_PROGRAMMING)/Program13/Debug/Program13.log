@@ -1,0 +1,4 @@
+﻿  expand.c
+c:\users\rithisha\desktop\ncr training\ncrwork\c programming\assignment4\assignment4(c_programming)\program13\expand.c(40): warning C4474: 'scanf_s' : too many arguments passed for format string
+  c:\users\rithisha\desktop\ncr training\ncrwork\c programming\assignment4\assignment4(c_programming)\program13\expand.c(40): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+  Program13.vcxproj -> C:\Users\Rithisha\Desktop\ncr training\ncrwork\C Programming\assignment4\assignment4(C_PROGRAMMING)\Debug\Program13.exe

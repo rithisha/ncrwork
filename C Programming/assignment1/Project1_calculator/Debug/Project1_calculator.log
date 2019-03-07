@@ -1,0 +1,8 @@
+﻿  calculator.cpp
+c:\users\rithisha\desktop\ncr training\ncrwork\c programming\assignment1\project1_calculator\calculator.cpp(72): warning C4244: 'initializing': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\rithisha\desktop\ncr training\ncrwork\c programming\assignment1\project1_calculator\calculator.cpp(79): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Project1_calculator.vcxproj -> C:\Users\Rithisha\Desktop\ncr training\ncrwork\C Programming\assignment4\assignment4(C_PROGRAMMING)\Debug\Project1_calculator.exe
