@@ -1,0 +1,6 @@
+﻿  class_distance.cpp
+c:\users\rithisha\desktop\ncr training\ncrwork\c++ programming\assignment1-c++\project5\class_distance.cpp(54): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\rithisha\desktop\ncr training\ncrwork\c++ programming\assignment1-c++\project5\class_distance.cpp(56): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\rithisha\desktop\ncr training\ncrwork\c++ programming\assignment1-c++\project5\class_distance.cpp(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\rithisha\desktop\ncr training\ncrwork\c++ programming\assignment1-c++\project5\class_distance.cpp(69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Project5.vcxproj -> C:\Users\Rithisha\Desktop\ncr training\ncrwork\C++ Programming\assignment1-c++\Debug\Project5.exe

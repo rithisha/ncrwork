@@ -78,7 +78,7 @@ int main()
 	case 2:s1 = (char *)malloc(size * sizeof(char));
 		strcpy1(s1, s); printf("%s ", s1);
 		break;
-	case 3:printf("enter size of string to concat\n");
+	case 3:printf("enter size of string to concatenate\n");
 		scanf("%d", &size1);
 	     s1 = (char *)malloc(size1 * sizeof(char));
 		printf("enter string to concat\n");
@@ -95,6 +95,8 @@ int main()
 			printf("%s is less than %s", s, s1);
 		break;
 	}
+	free(s);
+	free(s1);
 	getchar();
 	return 0;
 }

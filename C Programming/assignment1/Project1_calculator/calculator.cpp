@@ -21,6 +21,7 @@ int performOP(int a, int b, char op) {
 	case '-': res = sub(a, b); break;
 	case '*': res = mul(a, b); break;
 	case '/': res = divi(a, b); break;
+	default:cout << "invalid operator\n";
 	}
 	return res;
 }
@@ -44,7 +45,7 @@ int evaluate(char *in_string)
 				value_1 = value_1 * 10 + in_string[i] - '0';//calculating its value if more than 1 digit no.s
 				i++;
 			}
-			i--;
+			i--;//to point back as it doesn't get evaluated due to major for loop(i++)
 			operand.push(value_1);//pushing value of no. obtained into integer stack
 			cout << value_1 << endl;
 		}
@@ -56,7 +57,6 @@ int evaluate(char *in_string)
 				operand.pop();
 				int op2 = operand.top();
 				operand.pop();
-
 				char op = operators.top();
 				operators.pop();
 
@@ -67,7 +67,7 @@ int evaluate(char *in_string)
 		}
 		else
 		{
-			while (!operators.empty() && check_prec(operators.top()) >= check_prec(in_string[i]))
+			while (!operators.empty() && check_prec(operators.top()) >= check_prec(in_string[i]))//checking precedence of operators
 			{
 				float op1 = operand.top();
 				operand.pop();
